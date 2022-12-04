@@ -1,0 +1,6 @@
+redis.call('SETBIT', "big_bitmap1", "100000000", 1)
+redis.call('SETBIT', "big_bitmap2", "100000000", 1)
+redis.call('SETBIT', "big_bitmap3", "100000000", 1)
+redis.call('SETBIT', "big_bitmap4", "100000000", 1)
+redis.call('SETBIT', "big_bitmap5", "100000000", 1)
+redis.call('SETBIT', "big_bitmap6", "100000000", 1)
